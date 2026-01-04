@@ -4,6 +4,7 @@ npx create-react-app project_name
 cd project_name
 npm start
 ```
+
 <b>NOTE:</b> Class components are created using the rcc shortcut.
 
 <h3>intro</h3>
@@ -19,7 +20,7 @@ npm install -g json-server
 
 <b>NOTE:</b> You can also install it by writing it inside the dependencies section of the package.json.
 
- <table>
+<table>
     <tr>
         <th>react-router-dom v5</th>
         <th>react-router-dom v6 v7</th>
@@ -36,22 +37,20 @@ npm install -g json-server
        <td>&lt;Route path="/a" component={A} /&gt;</td>
        <td>&lt;Route path="/a" element={&lt;A /&gt;} /&gt;</td> 
     </tr>
- </table>
- <br/>
+</table>
+<br/>
 
- ```
- json-server --watch db.json (localhost:3000)
- npm start  (localhost:3001)
- ```
-<br/>
-<img src="pictures\01.png" alt="">
-<br/>
-<img src="pictures\02.png" alt="">
-<br/>
-<img src="pictures\03.png" alt="">
-<br/>
-<img src="pictures\04.png" alt="">
-<br/>
+
+```
+json-server --watch db.json (localhost:3000)
+npm start  (localhost:3001)
+```
+
+![image](pictures/01.png)
+![image](pictures/02.png)
+![image](pictures/03.png)
+![image](pictures/04.png)
+
 
 <h3>redux-intro</h3>
 <b>NOTE:</b> Counter Application
@@ -70,6 +69,7 @@ npm install redux
 npm install react-redux
 npm install reactstrap
 ```
+
 <table>
     <tr>
         <th>react-router-dom v5</th>
@@ -88,19 +88,14 @@ npm install reactstrap
        <td>Hooks are mandatory <br /> useParams(),useLocation(),useNavigate()</td> 
     </tr>
  </table>
+ <br/>
 
-<br/>
-<img src="pictures\1.png" alt="">
-<br/>
-<img src="pictures\2.png" alt="">
-<br/>
-<img src="pictures\3.png" alt="">
-<br/>
-<img src="pictures\4.png" alt="">
-<br/>
-<img src="pictures\5.png" alt="">
-<br/>
-<br/>
+![image](pictures/1.png)
+![image](pictures/2.png)
+![image](pictures/3.png)
+![image](pictures/4.png)
+![image](pictures/5.png)
+
 
 SOURCE
 
@@ -111,22 +106,3 @@ https://github.com/typicode/json-server
 https://www.geeksforgeeks.org/node-js/json-server-setup-and-introduction/
 
 https://alertifyjs.com/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
