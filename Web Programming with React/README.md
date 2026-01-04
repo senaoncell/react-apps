@@ -16,7 +16,6 @@ npm install alertifyjs
 npm install react-router-dom
 npm install -g json-server
 ```
-
 <b>NOTE:</b> You can also install it by writing it inside the dependencies section of the package.json.
 
  <table>
@@ -37,13 +36,12 @@ npm install -g json-server
        <td>&lt;Route path="/a" element={&lt;A /&gt;} /&gt;</td> 
     </tr>
  </table>
- <br/>
 
  ```
  json-server --watch db.json (localhost:3000)
  npm start  (localhost:3001)
  ```
-<br/>
+
 <img src="pictures\01.png" alt="">
 <br/>
 <img src="pictures\02.png" alt="">
@@ -51,7 +49,6 @@ npm install -g json-server
 <img src="pictures\03.png" alt="">
 <br/>
 <img src="pictures\04.png" alt="">
-<br/>
 
 <h3>redux-intro</h3>
 <b>NOTE:</b> Counter Application
@@ -70,6 +67,7 @@ npm install redux
 npm install react-redux
 npm install reactstrap
 ```
+
 <table>
     <tr>
         <th>react-router-dom v5</th>
@@ -88,8 +86,7 @@ npm install reactstrap
        <td>Hooks are mandatory <br /> useParams(),useLocation(),useNavigate()</td> 
     </tr>
  </table>
-
-<br/>
+ 
 <img src="pictures\1.png" alt="">
 <br/>
 <img src="pictures\2.png" alt="">
@@ -99,8 +96,6 @@ npm install reactstrap
 <img src="pictures\4.png" alt="">
 <br/>
 <img src="pictures\5.png" alt="">
-<br/>
-<br/>
 
 SOURCE
 
